@@ -1,0 +1,237 @@
+         2141899612 function calls (2130409384 primitive calls) in 371.809 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     7973    0.003    0.000    0.018    0.000 <class 'networkx.utils.decorators.argmap'> compilation 4:1(argmap_empty_graph_1)
+        1    0.000    0.000    0.000    0.000 <class 'networkx.utils.decorators.argmap'> compilation 9:1(<module>)
+        8    0.000    0.000    0.000    0.000 <class 'networkx.utils.decorators.argmap'> compilation 9:1(argmap_cycle_basis_5)
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000  371.809  371.809 <string>:1(<module>)
+ 32296573    5.381    0.000    8.264    0.000 _collections_abc.py:767(__contains__)
+   310895    0.046    0.000    0.066    0.000 _collections_abc.py:779(items)
+   310895    0.020    0.000    0.020    0.000 _collections_abc.py:802(__init__)
+  2130599    0.338    0.000    0.660    0.000 _collections_abc.py:849(__iter__)
+     7973    0.005    0.000    0.012    0.000 classic.py:405(empty_graph)
+     7973    0.057    0.000    1.233    0.000 convert.py:33(to_networkx_graph)
+     7973    0.010    0.000    1.067    0.000 convert.py:364(from_dict_of_dicts)
+   472929    0.137    0.000    0.491    0.000 convert.py:445(<genexpr>)
+408463516   20.503    0.000   20.503    0.000 coreviews.py:44(__init__)
+175304139   16.601    0.000   22.768    0.000 coreviews.py:50(__iter__)
+ 41205912    3.516    0.000    3.516    0.000 coreviews.py:53(__getitem__)
+208586281   31.781    0.000   41.815    0.000 coreviews.py:81(__getitem__)
+        8    0.000    0.000    0.000    0.000 cycles.py:21(cycle_basis)
+        2    0.000    0.000    0.000    0.000 decorators.py:1032(get_name)
+        4    0.000    0.000    0.000    0.000 decorators.py:1077(<genexpr>)
+        1    0.000    0.000    0.000    0.000 decorators.py:1083(signature)
+     10/6    0.000    0.000    0.000    0.000 decorators.py:1188(_flatten)
+        6    0.000    0.000    0.000    0.000 decorators.py:1218(_indent)
+     7973    0.003    0.000    0.003    0.000 decorators.py:241(_nodes_or_number)
+        1    0.000    0.000    0.000    0.000 decorators.py:740(_lazy_compile)
+        1    0.000    0.000    0.000    0.000 decorators.py:815(func)
+       16    0.000    0.000    0.000    0.000 decorators.py:82(_not_implemented_for)
+        5    0.000    0.000    0.000    0.000 decorators.py:850(_count)
+        4    0.000    0.000    0.000    0.000 decorators.py:873(_name)
+        1    0.000    0.000    0.000    0.000 decorators.py:893(compile)
+      2/1    0.000    0.000    0.000    0.000 decorators.py:941(assemble)
+        2    0.000    0.000    0.000    0.000 enum.py:358(__call__)
+        2    0.000    0.000    0.000    0.000 enum.py:670(__new__)
+        1    0.003    0.003  371.809  371.809 formose.py:89(main)
+        1    0.697    0.697  371.805  371.805 formose.py:9(perform_formose)
+        1    0.000    0.000    0.001    0.001 formose_grammar.py:13(generate_start_graph)
+        5    0.000    0.000    0.000    0.000 formose_grammar.py:34(<listcomp>)
+        5    0.000    0.000    0.000    0.000 function.py:599(set_node_attributes)
+    31889    0.018    0.000    0.306    0.000 function.py:699(get_node_attributes)
+    31889    0.079    0.000    0.268    0.000 function.py:721(<dictcomp>)
+        5    0.000    0.000    0.000    0.000 function.py:724(set_edge_attributes)
+    31889    0.025    0.000    0.438    0.000 function.py:833(get_edge_attributes)
+    31889    0.100    0.000    0.372    0.000 function.py:861(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 functools.py:420(_unwrap_partial)
+   770197    0.119    0.000    0.308    0.000 graph.py:1257(edges)
+  1967472    0.388    0.000    1.364    0.000 graph.py:1380(degree)
+     7973    0.004    0.000    0.005    0.000 graph.py:1420(clear)
+    55824    0.004    0.000    0.004    0.000 graph.py:1454(is_multigraph)
+  2951216    0.153    0.000    0.153    0.000 graph.py:1458(is_directed)
+ 86325586    9.638    0.000    9.638    0.000 graph.py:1811(number_of_edges)
+        6    0.000    0.000    0.000    0.000 graph.py:1863(nbunch_iter)
+    15954    0.016    0.000    1.250    0.000 graph.py:289(__init__)
+199877235   29.171    0.000   39.640    0.000 graph.py:338(adj)
+   970107    0.117    0.000    0.148    0.000 graph.py:357(name)
+  1213382    0.159    0.000    0.216    0.000 graph.py:398(__iter__)
+        6    0.000    0.000    0.000    0.000 graph.py:416(__contains__)
+  6291407    0.865    0.000    1.113    0.000 graph.py:430(__len__)
+197883865   40.052    0.000  117.660    0.000 graph.py:452(__getitem__)
+        6    0.000    0.000    0.000    0.000 graph.py:478(add_node)
+    23935    0.314    0.000    0.377    0.000 graph.py:526(add_nodes_from)
+ 14439733    3.320    0.000    4.782    0.000 graph.py:661(nodes)
+  1967472    0.224    0.000    0.285    0.000 graph.py:780(order)
+    21985    0.014    0.000    0.017    0.000 graph.py:827(add_edge)
+    15962    0.592    0.000    1.466    0.000 graph.py:895(add_edges_from)
+    20049    0.006    0.000    0.006    0.000 graph.py:990(remove_edge)
+        2    0.000    0.000    0.001    0.000 graph_gen.py:9(graph_from_smiles)
+        3    0.000    0.000    0.000    0.000 inspect.py:159(isfunction)
+        1    0.000    0.000    0.000    0.000 inspect.py:172(_has_code_flag)
+        1    0.000    0.000    0.000    0.000 inspect.py:183(isgeneratorfunction)
+        1    0.000    0.000    0.000    0.000 inspect.py:2152(_signature_from_function)
+        1    0.000    0.000    0.000    0.000 inspect.py:2246(_signature_from_callable)
+        2    0.000    0.000    0.000    0.000 inspect.py:2498(__init__)
+        8    0.000    0.000    0.000    0.000 inspect.py:2548(name)
+        2    0.000    0.000    0.000    0.000 inspect.py:2560(kind)
+        1    0.000    0.000    0.000    0.000 inspect.py:2781(__init__)
+        3    0.000    0.000    0.000    0.000 inspect.py:2830(<genexpr>)
+        1    0.000    0.000    0.000    0.000 inspect.py:2859(from_callable)
+        1    0.000    0.000    0.000    0.000 inspect.py:2865(parameters)
+        1    0.000    0.000    0.000    0.000 inspect.py:3111(signature)
+        1    0.000    0.000    0.000    0.000 inspect.py:81(ismethod)
+   983736    1.035    0.000  358.198    0.000 isomorph.py:127(is_isomorphic)
+   988712    2.939    0.000    8.579    0.000 isomorphvf2.py:153(__init__)
+   988712    1.684    0.000    1.684    0.000 isomorphvf2.py:174(<dictcomp>)
+ 29511354    5.604    0.000   12.868    0.000 isomorphvf2.py:202(candidate_pairs_iter)
+  5288105    2.962    0.000    2.962    0.000 isomorphvf2.py:212(<listcomp>)
+  5288105    2.779    0.000    2.779    0.000 isomorphvf2.py:213(<listcomp>)
+  1132204    1.131    0.000    2.370    0.000 isomorphvf2.py:235(initialize)
+   983736    1.352    0.000  346.365    0.000 isomorphvf2.py:266(is_isomorphic)
+ 32463288    2.854    0.000    8.211    0.000 isomorphvf2.py:278(<genexpr>)
+ 32463288    2.643    0.000    8.261    0.000 isomorphvf2.py:279(<genexpr>)
+   145135    0.069    0.000  322.163    0.002 isomorphvf2.py:289(isomorphisms_iter)
+5568705/369890   12.006    0.000  329.241    0.001 isomorphvf2.py:296(match)
+    12947    0.004    0.000    7.274    0.001 isomorphvf2.py:379(subgraph_isomorphisms_iter)
+ 24223249   56.674    0.000  162.326    0.000 isomorphvf2.py:395(syntactic_feasibility)
+  6291407   39.967    0.000  108.270    0.000 isomorphvf2.py:855(__init__)
+ 35072090    6.209    0.000    6.209    0.000 isomorphvf2.py:902(<listcomp>)
+ 35072090    5.907    0.000    5.907    0.000 isomorphvf2.py:912(<listcomp>)
+  4947395    8.827    0.000    9.312    0.000 isomorphvf2.py:918(restore)
+  1977424    0.312    0.000    0.397    0.000 matchhelpers.py:76(categorical_node_match)
+ 10266669    2.477    0.000    3.469    0.000 matchhelpers.py:79(match)
+     7971    0.163    0.000    5.161    0.001 production.py:100(perform_transformation)
+     7971    0.037    0.000    0.037    0.000 production.py:181(<dictcomp>)
+     4976    0.012    0.000   12.512    0.003 production.py:197(perform_all_transformations)
+     7971    0.011    0.000    1.371    0.000 production.py:211(dangling_nodes)
+     7971    0.003    0.000    0.003    0.000 production.py:214(<listcomp>)
+    23913    0.308    0.000    2.142    0.000 production.py:229(diff)
+    23913    0.217    0.000    0.530    0.000 production.py:231(<listcomp>)
+    23913    0.031    0.000    0.089    0.000 production.py:232(<listcomp>)
+    23913    0.144    0.000    0.214    0.000 production.py:253(<listcomp>)
+    31884    0.054    0.000    0.165    0.000 production.py:275(translate_edges)
+    47826    0.022    0.000    0.022    0.000 production.py:288(inverse_mapping)
+   171547    0.015    0.000    0.015    0.000 production.py:369(debug_print)
+     4976    0.011    0.000    7.339    0.001 production.py:73(possible_LG_mappings)
+     4976    0.002    0.000    7.276    0.001 production.py:83(<listcomp>)
+     4976    0.002    0.000    0.005    0.000 production.py:86(<listcomp>)
+     4976    0.001    0.000    0.001    0.000 production.py:87(<listcomp>)
+        4    0.000    0.000    0.000    0.000 re.py:203(sub)
+        4    0.000    0.000    0.000    0.000 re.py:289(_compile)
+       10    0.000    0.000    0.000    0.000 read_smiles.py:42(_tokenize)
+        2    0.000    0.000    0.000    0.000 read_smiles.py:95(read_smiles)
+     7976    0.021    0.000    1.079    0.000 relabel.py:191(_relabel_copy)
+   263156    0.029    0.000    0.038    0.000 relabel.py:193(<genexpr>)
+   263156    0.075    0.000    0.187    0.000 relabel.py:194(<genexpr>)
+   242469    0.090    0.000    0.250    0.000 relabel.py:216(<genexpr>)
+     7976    0.004    0.000    1.083    0.000 relabel.py:6(relabel_nodes)
+   770197    0.154    0.000    0.189    0.000 reportviews.py:1064(__init__)
+   485628    0.077    0.000    0.097    0.000 reportviews.py:1086(__getitem__)
+    39871    0.016    0.000    0.046    0.000 reportviews.py:1096(__call__)
+  1285008    0.359    0.000    0.365    0.000 reportviews.py:1266(__iter__)
+    85263    0.016    0.000    0.016    0.000 reportviews.py:1275(__contains__)
+ 14439733    1.462    0.000    1.462    0.000 reportviews.py:177(__init__)
+        4    0.000    0.000    0.000    0.000 reportviews.py:181(__len__)
+  2065145    0.261    0.000    0.385    0.000 reportviews.py:184(__iter__)
+ 13426426    1.968    0.000    2.683    0.000 reportviews.py:187(__getitem__)
+  1977432    0.150    0.000    0.150    0.000 reportviews.py:204(__call__)
+  1967472    0.770    0.000    0.976    0.000 reportviews.py:416(__init__)
+  1967472    0.197    0.000    0.197    0.000 reportviews.py:423(__call__)
+ 64926576    9.396    0.000   10.975    0.000 reportviews.py:526(__iter__)
+    39871    0.030    0.000    0.030    0.000 reportviews.py:759(__init__)
+        6    0.000    0.000    0.000    0.000 reportviews.py:767(<lambda>)
+        6    0.000    0.000    0.000    0.000 reportviews.py:767(<listcomp>)
+   758874    0.039    0.000    0.039    0.000 reportviews.py:773(<lambda>)
+        8    0.000    0.000    0.000    0.000 reportviews.py:778(<lambda>)
+   798753    0.325    0.000    0.399    0.000 reportviews.py:844(__iter__)
+        2    0.000    0.000    0.000    0.000 smiles_helper.py:173(parse_hcount)
+        2    0.000    0.000    0.000    0.000 smiles_helper.py:194(parse_charge)
+        2    0.000    0.000    0.000    0.000 smiles_helper.py:219(add_explicit_hydrogens)
+        6    0.000    0.000    0.000    0.000 smiles_helper.py:243(<listcomp>)
+        2    0.000    0.000    0.000    0.000 smiles_helper.py:288(fill_valence)
+        6    0.000    0.000    0.000    0.000 smiles_helper.py:324(bonds_missing)
+        6    0.000    0.000    0.000    0.000 smiles_helper.py:349(_valence)
+        6    0.000    0.000    0.000    0.000 smiles_helper.py:373(<lambda>)
+        6    0.000    0.000    0.000    0.000 smiles_helper.py:379(_bonds)
+        2    0.000    0.000    0.000    0.000 smiles_helper.py:440(mark_aromatic_atoms)
+        8    0.000    0.000    0.000    0.000 smiles_helper.py:46(parse_atom)
+        4    0.000    0.000    0.000    0.000 smiles_helper.py:499(mark_aromatic_edges)
+        2    0.000    0.000    0.000    0.000 smiles_helper.py:79(<dictcomp>)
+        2    0.000    0.000    0.000    0.000 smiles_helper.py:91(<lambda>)
+  6044491    9.380    0.000   23.705    0.000 vf2userfunc.py:39(_semantic_feasibility)
+   988712    0.567    0.000   10.687    0.000 vf2userfunc.py:77(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x105732a18}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+      2/1    0.000    0.000  371.809  371.809 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+  4729069    0.243    0.000    0.246    0.000 {built-in method builtins.hasattr}
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+ 15889503    0.819    0.000    0.819    0.000 {built-in method builtins.isinstance}
+178582674    6.348    0.000    6.348    0.000 {built-in method builtins.iter}
+95018026/88726619    3.474    0.000    4.338    0.000 {built-in method builtins.len}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+  5288111    1.482    0.000    1.482    0.000 {built-in method builtins.min}
+   138528    0.027    0.000  322.190    0.002 {built-in method builtins.next}
+       45    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+  1967472    4.450    0.000   20.922    0.000 {built-in method builtins.sorted}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        6    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+       36    0.000    0.000    0.000    0.000 {built-in method now}
+   988712    0.057    0.000    0.057    0.000 {built-in method sys.getrecursionlimit}
+        4    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+    10703    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+       14    0.000    0.000    0.000    0.000 {method 'capitalize' of 'str' objects}
+    23919    0.001    0.000    0.001    0.000 {method 'clear' of 'dict' objects}
+  1636475    0.088    0.000    0.088    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        6    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+     4978    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+ 23204321    1.092    0.000    1.092    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method 'islower' of 'str' objects}
+   996074    0.041    0.000    0.041    0.000 {method 'items' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+  9894790    0.486    0.000    0.486    0.000 {method 'keys' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+   162069    0.011    0.000    0.011    0.000 {method 'pop' of 'dict' objects}
+       24    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        8    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
+     1098    0.001    0.000    0.001    0.000 {method 'remove' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+  2226256    0.139    0.000    0.326    0.000 {method 'update' of 'dict' objects}
+ 70144180    4.713    0.000    4.713    0.000 {method 'update' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+
+
+	Command being timed: python3 formose.py
+	User time (seconds): 373.31
+	System time (seconds): 0.69
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:12.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 105136
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7298
+	Voluntary context switches: 15
+	Involuntary context switches: 8497
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 16384
+	Exit status: 0
